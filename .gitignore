@@ -1,3 +1,12 @@
 __pycache__
 *.png
-
+*.pyc
+*.nc
+*.dat
+*.mp4
+*.out
+*.gif
+*.x
+*.mod
+*.a
+*.csv
