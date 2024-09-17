@@ -94,7 +94,7 @@ plt.savefig('fig_tke.png',dpi=200)
 fig, ax = draw_hove(x,zc,entpy*1e5,\
                     levels = np.arange(1,entpy.max()*1e5+0.1,2),\
                     cmap   = plt.cm.Blues_r,\
-                    title  = 'Enstrophy '+r'[$10^5s^{-2}$]',\
+                    title  = 'Enstrophy '+r'[$10^{-5}s^{-2}$]',\
                    )
 draw_pbl(x, zc, pbl0p5, pbl_max_dthdz)
 plt.savefig('fig_enstrophy.png',dpi=200)
